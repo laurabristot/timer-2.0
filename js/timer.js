@@ -31,8 +31,8 @@ export function Timer({
 
       if (minutes <= 0 && seconds <= 0){
         resetControls()
+        updateTimerDisplay(25,0)
         sound.timerEnd()
-        updateTimerDisplay()
         return
       }
   
